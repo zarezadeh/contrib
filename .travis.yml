@@ -20,6 +20,3 @@ install:
 script:
   - ./hack/verify-gofmt.sh
   - godep go test ./...
-
-notifications:
-  irc: "chat.freenode.net#kubernetes-dev"
